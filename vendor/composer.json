@@ -1,0 +1,19 @@
+{
+    "name": "practicantetic3/certificado_rondanet",
+    "description": "generar PDF",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Practicantetic3\\CertificadoRondanet\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "practicantetic3",
+            "email": "practicantetic3@sanvicentefundacion.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {}
+}

@@ -1,0 +1,123 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f9f4;
+}
+
+.background-image {
+    background-image: url('img/Rionegro-152.jpg');
+    /* Ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+.banner {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 2rem;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    margin: 0;
+}
+
+.container {
+    flex: 1;
+    max-width: 500px;
+    margin: 10vh auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+}
+
+h2 {
+    color: #28a745;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.h5{
+    color: #28a745;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.form-control,
+.form-select {
+    border: 1px solid #28a745;
+}
+
+.form-check-label {
+    color: #28a745;
+}
+
+footer {
+    background-color: #006b45;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+.btn-aceptar {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.btn-aceptar:hover {
+    transform: scale(1.1);
+    background-color: #218838;
+}
+
+@media (max-width: 768px) {
+    .banner h1 {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        width: 90%;
+        margin: 5vh auto;
+        padding: 15px;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}
+
